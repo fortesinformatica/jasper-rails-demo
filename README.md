@@ -1,11 +1,12 @@
 #To run this demo:
 1. Setup:
+
 ```
 bundle
 rake db:migrate
-
 ```
 2. Start:
+
 ```
 rails s
 ```
