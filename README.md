@@ -2,7 +2,9 @@
 1. Setup
 ```
 bundle
+
 rake db:migrate
+
 ```
 2. Start
 ```
