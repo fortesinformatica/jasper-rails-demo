@@ -1,11 +1,19 @@
-#In order to run this demo, just:
+#To run this demo:
+1) Setup:
+
 ```
 bundle
 rake db:migrate
+```
+2) Start:
+
+```
 rails s
 ```
-#Add some people:
+3) Add some people:
+
 http://127.0.0.1:3000/people
 
-#Check the report:
+4) Check the report:
+
 http://127.0.0.1:3000/people.pdf
