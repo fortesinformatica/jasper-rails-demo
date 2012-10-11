@@ -3,7 +3,7 @@ require 'spec_helper'
 describe PeopleController do
 	describe "GET listagem" do
     before do
-      Person.stub(:all).and_return([Person.new(:name=>'jonh', :email=>'lennon@beatles.com'), Person.new(:name=>'paul', :email=>'paul@beatles.com')])
+      Person.stub(:all).and_return([Person.new(:name=>'john', :email=>'lennon@beatles.com'), Person.new(:name=>'paul', :email=>'paul@beatles.com')])
     end
     
     it "be success" do
